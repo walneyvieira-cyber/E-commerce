@@ -1,0 +1,60 @@
+.sectionHero{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    color: white;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.heroContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 60px 20px;
+}
+
+.heroContent h1{
+    font-size: 2.5rem;
+}
+
+.heroContent p{
+    font-size: 1.2rem;
+    max-width: 600px;
+}
+
+.heroActions{
+    display: flex;
+    gap: 16px;
+    margin-top: 10px;
+}
+
+.btnPrimary, .btnSecondary{
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.btnPrimary{
+    background-color: #ff9800;
+    color: white;
+}
+
+.btnPrimary:hover{
+    background-color: #f57c00;
+}
+
+.btnSecondary{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.btnSecondary:hover{
+    background-color: white;
+    color: #1e3c72;
+}
